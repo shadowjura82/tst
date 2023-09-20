@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 import java.util.Collection;
 
 @Service
-public class TestingService {
+public class HumanService {
     private final HumanRepository humanRepository;
 
-    public TestingService(HumanRepository humanRepository) {
+    public HumanService(HumanRepository humanRepository) {
         this.humanRepository = humanRepository;
     }
 
