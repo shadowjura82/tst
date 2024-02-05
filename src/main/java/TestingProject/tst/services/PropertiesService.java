@@ -5,9 +5,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PropertiesService {
-    @Value("${first.string.variable}")
+    @Value("${FIRST_STRING_VARIABLE}")
     private String stringFirst;
-    @Value("${second.string.variable}")
+    @Value("${SECOND_STRING_VARIABLE}")
     private String stringSecond;
     @Value("${flag.variable}")
     private Integer flag;
